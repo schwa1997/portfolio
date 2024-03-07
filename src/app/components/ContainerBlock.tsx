@@ -1,17 +1,20 @@
-import React from "react";
+import React, { FC, ReactNode } from "react";
 import Head from "next/head";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
-export default function ContainerBlock({children, ...customMeta }) {
-  const meta = {
-    title: "HuiminChen - Developer",
-    ...customMeta,
-  };
+
+interface ContainerBlockProps {
+  children: ReactNode;
+}
+
+export const ContainerBlock: FC<ContainerBlockProps> = ({
+  children,
+}) => {
   return (
     <div>
       <Head>
-        <title>{meta.title}</title>
+        <title>HuiminChen</title>
       </Head>
       <NavBar />
       <div>{children}</div>

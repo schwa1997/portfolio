@@ -1,4 +1,4 @@
-import ContainerBlock from "./components/ContainerBlock";
+import { ContainerBlock } from "./components/ContainerBlock";
 import Hero from "./components/Hero";
 import ShowcaseProjects from "./components/ShowcaseProjects";
 
