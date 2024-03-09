@@ -4,9 +4,9 @@ import ShowcaseProjects from "./components/ShowcaseProjects";
 
 export default function Home() {
   return (
-    <ContainerBlock>
+    <>
       <Hero />
       <ShowcaseProjects />
-    </ContainerBlock>
+    </>
   );
 }
