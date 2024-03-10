@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectCard } from "./sub-component/ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 import { userData } from "../Constants/data";
 
 export default function Projects() {

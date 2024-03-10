@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { userData } from "../Constants/data";
-import { ProjectCard } from "./sub-component/ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 
 export default function ShowcaseProjects() {
   return (
