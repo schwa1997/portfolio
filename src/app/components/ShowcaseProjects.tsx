@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { userData } from "../Constants/data";
+import { ProjectCard } from "./sub-component/ProjectCard";
 
 export default function ShowcaseProjects() {
   return (
@@ -12,7 +14,7 @@ export default function ShowcaseProjects() {
           </h1>
           <Link
             href="/projects"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-slate-200  dark:bg-slate-600 text-white dark:text-gray-200 shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,52 +34,16 @@ export default function ShowcaseProjects() {
             <p>View all</p>
           </Link>
         </header>
-
-        {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
-          {/* Single card */}
-          <a
-            href="https://tailwindmasterkit.com"
-            className="w-full block col-span-3 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <Image
-                src="/project1.png"
-                alt="avatar"
-                width={600}
-                height={200}
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Tailwind Master Kit
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                01
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://placeholdertech.in"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <Image
-                src="/project2.png"
-                alt="avatar"
-                width={200}
-                height={200}
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
+          {userData.projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              title={project.title}
+              link={project.link}
+              imgUrl={project.imgUrl}
+              description={project.description}
+            />
+          ))}
         </div>
       </div>
     </div>

@@ -1,13 +1,10 @@
-"use client";
-
-
 import React from "react";
-import Experience from "../components/Experience";
+import Contact from "../components/Contact";
 
 export default function page() {
   return (
     <div>
-      <Experience />
+        <Contact/>
     </div>
   );
 }

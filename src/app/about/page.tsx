@@ -1,4 +1,9 @@
+import Aboutme from "../components/Aboutme";
 
 export default function Home() {
-  return <div>about</div>;
+  return (
+    <div>
+      <Aboutme />
+    </div>
+  );
 }

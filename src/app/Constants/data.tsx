@@ -3,6 +3,7 @@ import { School, Work } from "@mui/icons-material";
 export const userData = {
   name: "Huimin Chen",
   avatarUrl: "/image.png",
+  email: "hermioneschwa@gmail.com",
   about: {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
@@ -17,30 +18,71 @@ export const userData = {
     linkedin: "https://www.linkedin.com/in/chenhuimin/",
     github: "https://github.com/schwa1997",
   },
-  experience: [
+  resumeUrl:
+    "https://drive.google.com/file/d/1OPxYjksVI-t8w5YFiC3MCotOYLzqpp6V/view?usp=sharing",
+  workExperience: [
     {
-      title: "Graduated bootcamp",
-      location: "Miami, FL",
+      title: "Master Thesis",
+      location: "Padua, Italy",
       description:
-        "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-      icon: Work,
-      date: "2019",
-    },
-    {
-      title: "Front-End Developer",
-      location: "Orlando, FL",
-      description:
-        "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-      icon: Work,
-      date: "2019 - 2021",
+        "My master thesis aims at developing a web applictaion for music engineering",
+      date: "2024-3",
     },
     {
       title: "Full-Stack Developer",
-      location: "Houston, TX",
+      location: "Remote",
+      description: "I worke as a freelancing web developer for remote work",
+      date: "20123 - now",
+    },
+    {
+      title: "Application engineer",
+      location: "Beijing, China",
+      description: "I am an application engineer for pilot machine development",
+      date: "2019 - 2022",
+    },
+  ],
+  educationExperience: [
+    {
+      title: "Computer engineering Master",
+      location: "University of Padua",
       description:
-        "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-      icon: School,
-      date: "2021 - present",
+        "Computer engineering-web information and data engineering",
+      date: "2022-2024",
+    },
+    {
+      title: "Electrical Engineering and Automation Bachelor",
+      location: "Harbin Institute of Technology",
+      description:
+        "I finished my bachlor degree in Electrical Engineering and Automation Bachelor ",
+      date: "2015 - 2019",
+    },
+    {
+      title: "Englishr",
+      location: "Harbin Institute of Technology",
+      description:
+        "I finished my second bachlor degree in English",
+      date: "2016 - 2019",
+    },
+  ],
+  projects: [
+    {
+      title: "Vita del Vino",
+      imgUrl: "/project-vine.png",
+      description:
+        "a website for maintaining the status of the vineyard and send report to the management team for prevention of disease.",
+      link: "https://github.com/schwa1997/VinoDelVitaApp",
+    },
+    {
+      title: "Portfolio",
+      imgUrl: "/portfolio.png",
+      description: "A portfolio website using NextJS and taildwindcss, deployed by Vercel.",
+      link: "https://my-website-odis.vercel.app/",
+    },
+    {
+      title: "ListDemo",
+      imgUrl: "/listDemo.png",
+      description: "A simple demo for displaying data and display the resulted data by search filter",
+      link: "https://motor-k-4zpn.vercel.app/",
     },
   ],
 };
