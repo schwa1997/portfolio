@@ -2,7 +2,7 @@ import { School, Work } from "@mui/icons-material";
 
 export const userData = {
   name: "Huimin Chen",
-  avatarUrl: "/image.png",
+  avatarUrl: "/selfie.png",
   email: "hermioneschwa@gmail.com",
   about: {
     title:
