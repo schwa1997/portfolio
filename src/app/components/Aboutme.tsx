@@ -5,7 +5,7 @@ import Image from "next/image";
 function Aboutme() {
   return (
     <div className="flex font-sans justify-center p-6">
-      <div className="md:w-1/2 dark:bg-slate-800 bg-zinc-100">
+      <div className="md:w-2/3 dark:bg-slate-800 bg-zinc-100">
         <div className="flex justify-center pt-6">
           <Image
             src={userData.avatarUrl}
