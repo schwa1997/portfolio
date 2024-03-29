@@ -25,42 +25,44 @@ export const userData = {
       title: "Master Thesis",
       location: "Padua, Italy",
       description:
-        "My master thesis aims at developing a web applictaion for music engineering",
-      date: "2024-3",
+        "My master's thesis focused on developing a web application to assist children with listening disabilities in practicing vowel pronunciation at appropriate volume and pitch, intensity, and other parameters. Additionally, I developed an app for singers or individuals interested in practicing singing to refine their pitch accuracy.",
+      date: "2024-03",
     },
     {
       title: "Full-Stack Developer",
       location: "Remote",
-      description: "I worke as a freelancing web developer for remote work",
-      date: "20123 - now",
+      description:
+        "Freelance web developer specializing in full-stack development, working remotely on various projects.",
+      date: "2023 - Present",
     },
     {
-      title: "Application engineer",
+      title: "Application Engineer",
       location: "Beijing, China",
-      description: "I am an application engineer for pilot machine development",
+      description:
+        "Served as an application engineer specializing in pilot machine development. Key projects included cam design for the cross-lapper, a crucial machine in the non-woven industry, and implementing a washing function for the vaccine packaging line.",
       date: "2019 - 2022",
     },
   ],
   educationExperience: [
     {
-      title: "Computer engineering Master",
+      title: "Master of Computer Engineering",
       location: "University of Padua",
       description:
-        "Computer engineering-web information and data engineering",
-      date: "2022-2024",
+        "Specialization in web information and data engineering. My master's thesis focused on developing a web application to assist children with listening disabilities in practicing vowel pronunciation at appropriate volume and pitch, intensity, and other parameters. Additionally, I developed an app for singers or individuals interested in practicing singing to refine their pitch accuracy.",
+      date: "2022 - 2024",
     },
     {
-      title: "Electrical Engineering and Automation Bachelor",
+      title: "Bachelor of Electrical Engineering and Automation",
       location: "Harbin Institute of Technology",
       description:
-        "I finished my bachlor degree in Electrical Engineering and Automation Bachelor ",
+        "Completed a Bachelor's degree in Electrical Engineering and Automation. My bachelor's thesis involved studying the PLC design of an automatic noodle production machine.",
       date: "2015 - 2019",
     },
     {
-      title: "Englishr",
+      title: "English and Literature (Minor)",
       location: "Harbin Institute of Technology",
       description:
-        "I finished my second bachlor degree in English",
+        "Earned a second Bachelor's degree in English. My thesis explored feminist narrative elements in the works of Jane Eyre, particularly examining the portrayal of feminist themes in the character of Jane Eyre.",
       date: "2016 - 2019",
     },
   ],
@@ -73,15 +75,24 @@ export const userData = {
       link: "https://github.com/schwa1997/VinoDelVitaApp",
     },
     {
+      title: "SoundRise",
+      imgUrl: "/project-thesis.png",
+      description:
+        "Thesis project for helping kids with listining diability to pronounce the vowls more correctly with the recognition of the volumn ",
+      link: "https://github.com/schwa1997/thesis-soundRise",
+    },
+    {
       title: "Portfolio",
       imgUrl: "/portfolio.png",
-      description: "A portfolio website using NextJS and taildwindcss, deployed by Vercel.",
+      description:
+        "A portfolio website using NextJS and taildwindcss, deployed by Vercel.",
       link: "https://my-website-odis.vercel.app/",
     },
     {
       title: "ListDemo",
       imgUrl: "/listDemo.png",
-      description: "A simple demo for displaying data and display the resulted data by search filter",
+      description:
+        "A simple demo for displaying data and display the resulted data by search filter",
       link: "https://motor-k-4zpn.vercel.app/",
     },
   ],
