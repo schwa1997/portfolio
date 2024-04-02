@@ -80,18 +80,17 @@ export const userData = {
       link: "https://github.com/schwa1997/thesis-soundRise",
     },
     {
+      title: "Work Out Log",
+      imgUrl: "/project4-workout.png",
+      description: "a website for workout record logging.",
+      link: "https://workout-green.vercel.app/",
+    },
+    {
       title: "Portfolio",
       imgUrl: "/portfolio.png",
       description:
         "A portfolio website using NextJS and taildwindcss and motion, deployed by Vercel.",
       link: "https://my-website-odis.vercel.app/",
-    },
-    {
-      title: "Work Out Log",
-      imgUrl: "/project4-workout.png",
-      description:
-        "a website for workout record logging.",
-      link: "https://workout-green.vercel.app/",
     },
     {
       title: "ListDemo",

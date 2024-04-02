@@ -9,8 +9,8 @@ export default function ShowcaseProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-row justify-between items-center sm:pt-20 pt-40 mx-10 sm:my-20 lg:my-0 md:pb-0 pb-6" >
-          <h1 className="text-2xl sm:text-9xl max-w-lg font-bold text-gray-500 my-0 sm:my-20 sm:text-white dark:text-gray-600 text-center">
+        <header className="flex flex-row justify-between items-center sm:pt-20 pt-44 mx-10 mt-2 md:mt-8 lg:mt-0 mb-2 md:mb-0 lg:mb-0" >
+          <h1 className="text-2xl sm:text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-0 sm:my-20 sm:text-white dark:text-gray-600 text-center">
             My Projects
           </h1>
           <Link
