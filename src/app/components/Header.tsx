@@ -5,10 +5,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "../context/active-section-context";
-import { links } from "../Constants/data";
-import { userData } from "../Constants/data";
+import { links } from "../util/data";
+import { userData } from "../util/data";
 import { useTheme } from "next-themes";
-import { usePathname } from "next/navigation";
 import {
   GitHub,
   Instagram,

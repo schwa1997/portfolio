@@ -2,7 +2,7 @@ import React from "react";
 import { RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import Image from "next/image";
-import { userData } from "../Constants/data";
+import { userData } from "../util/data";
 
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#D0C672"];

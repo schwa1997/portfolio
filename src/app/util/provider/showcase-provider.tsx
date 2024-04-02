@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { userData } from "../Constants/data";
-import { ProjectCard } from "./ProjectCard";
+import { userData } from "../data";
+import { ProjectCard } from "../../components/ProjectCard";
 
 export default function ShowcaseProjects() {
   const projectsToRender = userData.projects.slice(0, 3); 

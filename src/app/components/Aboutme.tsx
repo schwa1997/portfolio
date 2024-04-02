@@ -1,5 +1,5 @@
 import React from "react";
-import { userData } from "../Constants/data";
+import { userData } from "../util/data";
 import Image from "next/image";
 
 function Aboutme() {

@@ -1,6 +1,5 @@
-import { ContainerBlock } from "./components/ContainerBlock";
 import Hero from "./components/Hero";
-import ShowcaseProjects from "./components/ShowcaseProjects";
+import ShowcaseProjects from "./util/provider/showcase-provider";
 
 export default function Home() {
   return (

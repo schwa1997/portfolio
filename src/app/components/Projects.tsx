@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectCard } from "./ProjectCard";
-import { userData } from "../Constants/data";
+import { userData } from "../util/data";
 
 export default function Projects() {
   return (
