@@ -5,16 +5,17 @@ import { userData } from "../Constants/data";
 import { ProjectCard } from "./ProjectCard";
 
 export default function ShowcaseProjects() {
+  const projectsToRender = userData.projects.slice(0, 3); 
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+        <header className="flex flex-row justify-between items-center sm:pt-20 pt-40 mx-10 sm:my-20 lg:my-0 md:pb-0 pb-6" >
+          <h1 className="text-2xl sm:text-9xl max-w-lg font-bold text-gray-500 my-0 sm:my-20 sm:text-white dark:text-gray-600 text-center">
             My Projects
           </h1>
           <Link
             href="/projects"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-slate-200  dark:bg-slate-600 text-white dark:text-gray-200 shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center"
+            className="mb-2 sm:mb-0 sm:px-8 sm:py-4 p-2 rounded-md bg-slate-200  dark:bg-slate-600 text-white dark:text-gray-200 shadow-lg text-base md:text-xl font-semibold flex flex-row space-x-4 items-center"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,8 +35,8 @@ export default function ShowcaseProjects() {
             <p>View all</p>
           </Link>
         </header>
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
-          {userData.projects.map((project, index) => (
+        <div className="grid sm:grid-cols-3 gap-8 lg:-mt-8 sm:pb-24 pb-10 sm:px-4 px-4">
+          {projectsToRender.map((project, index) => (
             <ProjectCard
               key={index}
               title={project.title}
