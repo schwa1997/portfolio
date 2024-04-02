@@ -72,7 +72,7 @@ export default function Header() {
           ))}
         </ul>
       </nav>{" "}
-      <div className="flex fixed sm:right-2 -right-2 top-10 sm:top-10 gap-2 h-6 place-text-center">
+      <div className="flex fixed sm:right-2 right-0 top-4 sm:top-10 gap-2 h-6 place-text-center">
         <a href={userData.socialLinks.instagram} className="lg:flex hidden">
           <Instagram />
         </a>
