@@ -72,19 +72,19 @@ export default function Header() {
           ))}
         </ul>
       </nav>{" "}
-      <div className="flex fixed sm:right-2 -right-2 top-4 sm:top-10 gap-2 h-6 place-text-center">
-        <a href={userData.socialLinks.instagram} className="sm:flex hidden">
+      <div className="flex fixed sm:right-2 -right-2 top-10 sm:top-10 gap-2 h-6 place-text-center">
+        <a href={userData.socialLinks.instagram} className="lg:flex hidden">
           <Instagram />
         </a>
         <a
           href={userData.socialLinks.github}
-          className="sm:flex hidden text-base font-normal text-gray-600 dark:text-gray-300"
+          className="lg:flex hidden text-base font-normal text-gray-600 dark:text-gray-300"
         >
           <GitHub />
         </a>
         <a
           href={userData.socialLinks.linkedin}
-          className="sm:flex hidden text-base font-normal text-gray-600 dark:text-gray-300"
+          className="lg:flex hidden text-base font-normal text-gray-600 dark:text-gray-300"
         >
           <LinkedIn />
         </a>
