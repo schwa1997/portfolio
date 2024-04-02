@@ -89,6 +89,13 @@ export const userData = {
       link: "https://my-website-odis.vercel.app/",
     },
     {
+      title: "Work Out Log",
+      imgUrl: "/project4-workout.png",
+      description:
+        "a website for workout record logging.",
+      link: "https://workout-green.vercel.app/",
+    },
+    {
       title: "ListDemo",
       imgUrl: "/listDemo.png",
       description:
