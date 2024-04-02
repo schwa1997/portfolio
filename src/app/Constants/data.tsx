@@ -1,5 +1,3 @@
-import { School, Work } from "@mui/icons-material";
-
 export const userData = {
   name: "Huimin Chen",
   avatarUrl: "/selfie.png",
@@ -104,3 +102,25 @@ export const userData = {
     },
   ],
 };
+export const links = [
+  {
+    name: "Home",
+    hash: "/",
+  },
+  {
+    name: "About",
+    hash: "/about",
+  },
+  {
+    name: "Projects",
+    hash: "/projects",
+  },
+  {
+    name: "Experience",
+    hash: "/experience",
+  },
+  {
+    name: "Contact",
+    hash: "/contact",
+  },
+] as const;

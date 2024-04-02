@@ -19,14 +19,14 @@ export default function NavBar() {
   const pathname = usePathname();
   const { theme, setTheme } = useTheme();
   return (
-    <div className="z-[999] absolute top-0 w-screen  place-content-between flex p-2 md:px-20 md:pt-10">
+    <div className="place-content-between flex p-2 md:px-20 md:pt-10">
       <div className=" place-self-center">
         <Link href="/" className="font-normal text-gray-600 dark:text-gray-300">
           <HomeOutlined className="text-2xl md:text-4xl" />
         </Link>
       </div>
       <div className="place-self-end flex gap-2 h-full place-items-center">
-        <div className="md:block hidden">
+        <div className="md:flex gap-2 hidden">
           <a href={userData.socialLinks.instagram}>
             <Instagram />
           </a>
