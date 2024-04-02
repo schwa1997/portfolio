@@ -83,7 +83,7 @@ export const userData = {
       title: "Portfolio",
       imgUrl: "/portfolio.png",
       description:
-        "A portfolio website using NextJS and taildwindcss, deployed by Vercel.",
+        "A portfolio website using NextJS and taildwindcss and motion, deployed by Vercel.",
       link: "https://my-website-odis.vercel.app/",
     },
     {
