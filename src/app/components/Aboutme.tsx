@@ -1,6 +1,7 @@
 import React from "react";
 import { userData } from "../util/data";
 import Image from "next/image";
+import Link from "next/link";
 
 function Aboutme() {
   return (
@@ -50,6 +51,23 @@ function Aboutme() {
                 CV
               </a>{" "}
               and I would love to work for you.
+            </p>
+          </div>
+          <div className="mt-8 pt-4">
+            <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              <Link href={"/blog"}>Blogs</Link>
+            </h1>
+            <p className="">
+              If you want to know more about my life outside as a programmer,
+              you can check my{" "}
+              <a
+                href="/blog"
+                target="_self"
+                className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+              >
+                blogs
+              </a>{" "}
+              page.
             </p>
           </div>
         </div>

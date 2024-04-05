@@ -123,3 +123,42 @@ export const links = [
     hash: "/contact",
   },
 ] as const;
+export const blogs = [
+  {
+    id: 1,
+    slug: 1,
+    title: "My Rugby Experience",
+    img: "https://www.thebeijinger.com/sites/default/files/styles/800_width/public/3d4205f7ec0594beb0da39a19c19034.jpg",
+    subtitle: "To be more fit and to challenge myself",
+    body: [
+      {
+        paragraphIndex: 1,
+        content:
+          "In the world of sports, rugby has long been associated with strength, power, and resilience. Traditionally dominated by men, the sport has seen a remarkable transformation in recent years with the surge of interest and participation among women. As the barriers break down and opportunities expand, women's rugby is experiencing a renaissance, becoming a symbol of empowerment and inclusivity in athletics.",
+      },
+      {
+        paragraphIndex: 2,
+        content:
+          "Historically, rugby has been perceived as a male-dominated sport, with its rough nature and physical demands often seen as better suited to men. However, this perception is rapidly changing as women around the world embrace the sport with passion and determination. From grassroots initiatives to international competitions, female rugby players are making their mark on the field and challenging stereotypes along the way.",
+      },
+      {
+        paragraphIndex: 3,
+        content:
+          "Historically, rugby has been perceived as a male-dominated sport, with its rough nature and physical demands often seen as better suited to men. However, this perception is rapidly changing as women around the world embrace the sport with passion and determination. From grassroots initiatives to international competitions, female rugby players are making their mark on the field and challenging stereotypes along the way.",
+      },
+      {
+        paragraphIndex: 4,
+        content:
+          "Historically, rugby has been perceived as a male-dominated sport, with its rough nature and physical demands often seen as better suited to men. However, this perception is rapidly changing as women around the world embrace the sport with passion and determination. From grassroots initiatives to international competitions, female rugby players are making their mark on the field and challenging stereotypes along the way.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    slug: 2,
+    title: "blog2",
+    img: "/project4-workout.png",
+    subtitle: "blogsssdguisad",
+    content: "bloggagjsadiadsi;fudgugf'ofauogdahy;ad",
+  },
+];
