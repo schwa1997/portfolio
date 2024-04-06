@@ -127,6 +127,9 @@ export const blogs = [
   {
     id: 1,
     slug: 1,
+    readingMins: 3,
+    author: "SCHWA",
+    tags: ["hobby", "sport"],
     title: "My Rugby Experience",
     img: "https://www.thebeijinger.com/sites/default/files/styles/800_width/public/3d4205f7ec0594beb0da39a19c19034.jpg",
     subtitle: "To be more fit and to challenge myself",
@@ -156,9 +159,41 @@ export const blogs = [
   {
     id: 2,
     slug: 2,
-    title: "blog2",
-    img: "/project4-workout.png",
-    subtitle: "blogsssdguisad",
-    content: "bloggagjsadiadsi;fudgugf'ofauogdahy;ad",
+    readingMins: 5,
+    author: "SCHWA",
+    tags: ["travel"],
+    title: "Weekend Trip to Munich",
+    img: "https://cdn.odysseytraveller.com/app/uploads/2020/02/Old-Town-Hall-at-Marienplatz-Square-Munich-Germany-GettyImages-1173484118.jpg",
+    subtitle: "Safety and Sunshine matters the most!",
+    body: [
+      {
+        paragraphIndex: 1,
+        content: "Safety is paramount, particularly for solo female travelers. It's essential to prioritize safety above all else, regardless of gender. Ensuring the safety of the city enhances the travel experience, imbuing it with a sense of security and tranquility. While it's impossible to guarantee a completely carefree vacation, remaining vigilant about one's surroundings is crucial. Even seemingly innocuous encounters can harbor risks, underscoring the need for cautiousness. Yet, amidst these considerations, Munich stands out as a beacon of safety in Europe, offering a reassuring haven for travelers.",
+      },
+      {
+        paragraphIndex: 2,
+        content: "And then there's sunshine – a radiant companion on any journey. Its warm embrace not only illuminates the landscape but also infuses each step with a touch of joy. I recall fondly the simple pleasures of strolling through Munich's sun-kissed streets, where the aroma of freshly baked bread mingles with the fragrant essence of grains. In those golden moments, happiness is effortless, enveloping the soul in a cocoon of contentment. Indeed, the quality of a solo trip is deeply intertwined with the benevolent glow of the sun, casting life's tapestry in hues of brilliance and warmth.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    slug: 3,
+    readingMins: 5,
+    author: "SCHWA",
+    tags: ["sport","self-imporvement"],
+    title: "Workout and diet jourey",
+    img: "https://c.stocksy.com/a/jmm500/z9/1379173.jpg",
+    subtitle: "A sustainanable plan matters",
+    body: [
+      {
+        paragraphIndex: 1,
+        content: "Safety is paramount, particularly for solo female travelers. It's essential to prioritize safety above all else, regardless of gender. Ensuring the safety of the city enhances the travel experience, imbuing it with a sense of security and tranquility. While it's impossible to guarantee a completely carefree vacation, remaining vigilant about one's surroundings is crucial. Even seemingly innocuous encounters can harbor risks, underscoring the need for cautiousness. Yet, amidst these considerations, Munich stands out as a beacon of safety in Europe, offering a reassuring haven for travelers.",
+      },
+      {
+        paragraphIndex: 2,
+        content: "And then there's sunshine – a radiant companion on any journey. Its warm embrace not only illuminates the landscape but also infuses each step with a touch of joy. I recall fondly the simple pleasures of strolling through Munich's sun-kissed streets, where the aroma of freshly baked bread mingles with the fragrant essence of grains. In those golden moments, happiness is effortless, enveloping the soul in a cocoon of contentment. Indeed, the quality of a solo trip is deeply intertwined with the benevolent glow of the sun, casting life's tapestry in hues of brilliance and warmth.",
+      },
+    ],
   },
 ];
