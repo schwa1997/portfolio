@@ -91,7 +91,7 @@ export const userData = {
     },
     {
       title: "Work Out Log",
-      imgUrl: "/project4-workout.png",
+      imgUrl: "/workout.png",
       description: "a website for workout record logging.",
       link: "https://workout-green.vercel.app/",
     },
