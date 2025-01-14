@@ -8,7 +8,7 @@ import ActiveSectionContextProvider from "./context/active-section-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Once&Blink",
+  title: "Portfolio",
   description: "Chen Huimin portfolio website",
 };
 
