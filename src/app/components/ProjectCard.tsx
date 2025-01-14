@@ -14,24 +14,37 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    <div>
-      <a href={link} target="_blank" className="w-full block shadow-2xl">
-        <div className="relative overflow-hidden">
-          <div className="h-72 object-cover">
-            <img
-              src={imgUrl}
-              alt="portfolio"
-              className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
-            />
-          </div>
-          <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-slate-800/60 hover:bg-slate-800 dark:bg-black/60 dark:hover:bg-black px-2 rounded-lg">
-            {title}
-          </h1>
-          <h1 className="absolute bottom-10 left-10 w-auto right-10 bg-slate-800/60 hover:bg-slate-800 dark:bg-black/60 dark:hover:bg-black text-gray-50 font-bold text-xl p-4 rounded-lg">
-            {description}
-          </h1>
+    <div className="flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-2xl h-full">
+      {/* Image Section */}
+      <div className="w-full">
+        <div className="relative h-72">
+          <img
+            src={imgUrl}
+            alt={title}
+            className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
+          />
         </div>
-      </a>
+      </div>
+
+      {/* Content Section */}
+      <div className="w-full p-6 flex flex-col flex-grow">
+        <div className="flex-grow">
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+            {title}
+          </h2>
+          <p className="text-gray-600 dark:text-gray-300">{description}</p>
+        </div>
+        <div className="mt-6">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+          >
+            View Project
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

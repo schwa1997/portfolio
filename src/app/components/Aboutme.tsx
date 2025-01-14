@@ -61,8 +61,8 @@ function Aboutme() {
               If you want to know more about my life outside as a programmer,
               you can check my{" "}
               <a
-                href="/blog"
-                target="_self"
+                href="https://change-ten.vercel.app/blog"
+                target="_blank"
                 className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
               >
                 blogs
