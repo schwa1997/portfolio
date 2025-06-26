@@ -21,14 +21,14 @@ export const userData = {
       title: "Full-Stack Developer",
       location: "Spain",
       description:
-        "Full-stack developer including frontend and backend development, app developer, iot, aws implementation, and more. IOT AWS WEB/MOBILE APP DEVELOPMENT for smart buidling",
+        "Full-stack developer with real application of Php, NestJs, Angular, Ionic for mobile app, AWS, IoT solution. Engaged in the development of an IoT application, functions in the CRM platform, and agriculture-related web platform",
       date: "2023 - Present",
     },
     {
       title: "Master Thesis",
       location: "Padua, Italy",
       description:
-        "My master's thesis focused on developing a web application to assist children with listening disabilities in practicing vowel pronunciation at appropriate volume and pitch, intensity, and other parameters. Additionally, I developed an app for singers or individuals interested in practicing singing to refine their pitch accuracy.",
+        "My master's thesis focused on developing a web application for children with listening disabilities to practice vowel pronunciation with appropriate volume, pitch, and other parameters. Designed the front-end with React, backend with Python running AI model which trained audio data to do the vowel recognition",
       date: "2024-03",
     },
     {
@@ -101,6 +101,20 @@ export const userData = {
       description:
         "A portfolio website using NextJS and taildwindcss and motion, deployed by Vercel.",
       link: "https://portfolio-website-lilac-nu-18.vercel.app/",
+    },
+    {
+      title: "Daily Plan tracker",
+      imgUrl: "/ChanGing.png",
+      description:
+        "A miantaining project for myself to learn Spanish and track my life goals and progress",
+      link: "https://craft-eta.vercel.app",
+    },
+    {
+      title: "Oh-card Project-SAAS Product Protype",
+      imgUrl: "/oh-card.png",
+      description:
+        "A full-stack project for therapists to manage the customers",
+      link: "https://oh-card.vercel.app/",
     },
   ],
 };
